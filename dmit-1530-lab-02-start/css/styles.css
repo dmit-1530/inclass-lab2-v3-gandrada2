@@ -161,19 +161,6 @@ footer {
       display: block;
     }
 
-  .flex-container article:nth-of-type(4) img,
-  .flex-container article:nth-of-type(5) img,
-  .flex-container article:nth-of-type(6) img,
-  .flex-container article:nth-of-type(7) img,
-  .flex-container article:nth-of-type(8)img ,
-  .flex-container article:nth-of-type(9) img {
-      width: 100%;
-      height: 100%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-      display: block;
-    }
-
   .flex-container article:nth-of-type(4),
   .flex-container article:nth-of-type(5),
   .flex-container article:nth-of-type(6),
