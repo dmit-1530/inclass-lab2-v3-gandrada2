@@ -107,18 +107,6 @@ footer {
 
 /**Media Query for medium-sized screens*/
 @media screen and (min-width: 640px) and (max-width: 840px) {
-  h1 {
-    text-align: center;
-    }
-
-  article:not(:first-of-type) h2 {
-    font-size: 1.1rem;
-    }
-
-  article:not(:first-of-type) p,
-  article:not(:first-of-type) a {
-    font-size: 0.8rem;
-    }
 
   .flex-container article:first-of-type {
     display: flex;
@@ -161,21 +149,11 @@ footer {
       display: block;
     }
 
-  .flex-container article:nth-of-type(4),
-  .flex-container article:nth-of-type(5),
-  .flex-container article:nth-of-type(6),
-  .flex-container article:nth-of-type(7),
-  .flex-container article:nth-of-type(8),
-  .flex-container article:nth-of-type(9) {
-      width: calc((100%/3) - (2rem/3));
-    }
+  .flex-container article:nth-of-type(n+4):nth-of-type(-n+9) {
+    width: calc((100%/3) - (2rem/3));
+  }
 
-  .card-copy:nth-of-type(4),
-  .card-copy:nth-of-type(5),
-  .card-copy:nth-of-type(6),
-  .card-copy:nth-of-type(7),
-  .card-copy:nth-of-type(8),
-  .card-copy:nth-of-type(9) {
+  .card-copy:nth-of-type(n+4):nth-of-type(-n+9) {
       padding-left: 0;
     }
 
