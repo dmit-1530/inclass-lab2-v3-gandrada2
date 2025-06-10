@@ -40,7 +40,6 @@ h1 {
 
 a {
     color: var(--anchor-tags);
-    text-decoration: none;
 }
 
 /* Main Content */
@@ -63,7 +62,7 @@ article {
 }
 
 .card-copy {
-    padding: 2.5rem;
+    padding: 2rem;
 }
 
 .card-copy p {
@@ -81,7 +80,7 @@ article:first-of-type {
 }
 
 article:not(:first-of-type) h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 article:not(:first-of-type) p,
